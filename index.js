@@ -17,5 +17,5 @@ function keepGoing(a, c, s) {
 
 
 function findBy(a, callback) {
-  
+  return a.find(callback)
 }
