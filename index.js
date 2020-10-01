@@ -14,3 +14,11 @@ function keepGoing(a, c, s) {
   }
   return a
 }
+
+
+function findBy(a, f) {
+  for(let i = 0; i < a.length; i++) {
+    if(a[i] === f) return a[i]
+  }
+  return null;
+}
