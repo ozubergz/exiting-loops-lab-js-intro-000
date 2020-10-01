@@ -16,9 +16,6 @@ function keepGoing(a, c, s) {
 }
 
 
-function findBy(a, f) {
-  for(let i = 0; i < a.length; i++) {
-    if(a[i] === f) return a[i]
-  }
-  return null;
+function findBy(a, callback) {
+  
 }
