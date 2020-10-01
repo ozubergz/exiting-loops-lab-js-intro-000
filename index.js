@@ -3,4 +3,5 @@ function breakOut(a, cv, sv) {
     a[i] = cv
     if(a[i] === sv) break;
   }
+  return a
 }
