@@ -5,3 +5,12 @@ function breakOut(a, c, s) {
   }
   return a
 }
+
+
+function keepGoing(a, c, s) {
+  for(let i = 0; i < a.length; i++) {
+    if(a[i] === s) continue;
+    a[i] = c
+  }
+  return a
+}
